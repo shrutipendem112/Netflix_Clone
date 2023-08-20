@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/background_img.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.button-border{
+    background-color: transparent;
+    border: 0.01rem solid #afafaf;
+    border-radius: 0.2rem;
+}
+.red-button{
+    border-radius: 0.3rem;
+    background-color: #e50914;
+}
+.red-button:hover{
+    background-color: #b8060f;
+}
+
+/* navbar */
+nav{
+    margin: auto;
+    height: 5.375rem;
+} 
+.nav-content{
+    width: 73.125rem;
+    height: 5.375rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    background-image: url(images/logo_new1.png);
+    width: 9.25rem;
+    height: 5.375rem;
+}
+.nav-right{
+    display: flex;
+    justify-content: end;
+}
+.nav-language-select-container{
+    padding: 1.5rem 0.8rem 1.5rem 0.8rem;
+}
+.nav-language-select-content{
+    width: 7.65rem;
+    height: 2rem;
+    font-weight: bold;
+}
+.nav-language-select{
+    background-color: transparent;
+    border: 0.1rem solid transparent;
+}
+.globe-margin{
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+}
+.down-margin{
+    margin-left: 1rem;
+}
+.nav-signin-button-container{
+    padding: 1.5rem 0.8rem 1.5rem 0.8rem;
+}
+.nav-signin-button{
+    font-weight: bold;
+    border-radius: 0.3rem;
+    width: 4.749rem;
+    height: 2rem;
+}
+
+/* hero section */
+.hero-section{
+    width: 56.705rem;
+    height: 14.925rem;
+    position: absolute;
+    top: 300px;
+    left: 330px;
+}
+.hero-heading{
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.hero-para2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.7rem 0rem 0.7rem 0rem;
+}
+.hero-bottom-para{
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0.6rem 0rem 0.6rem 0rem;
+}
+.hero-bottom-email{
+    margin-left: 10rem;
+}
+.hero-email{
+    width: 23.897rem;
+    height: 3.5rem;
+}
+.hero-button{
+    width: 12.228rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+hr{
+    background-color: #363636;
+    width: 100%;
+    height: 0.5rem;
+    border: 0.1rem solid #363636;
+}
+
+.section1-container{
+    width: 100%;
+    height: 550vh;
+    background-color: #000000;
+}
+.section-content{
+    width: 90rem;
+    height: 37rem;
+    margin: auto;
+    padding: 7rem 0rem 0rem 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.section-content-item{
+    width: 40rem;
+}
+.section-content-heading{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 6rem;
+}
+.section-content-para{
+    font-size: 1.5rem;
+}
+
+.section1-img{
+    width: 38rem;
+    height: 22rem;
+    background-image: url(images/img1.png);
+    background-size: cover;
+}
+.section2-img{
+    width: 38rem;
+    height: 22rem;
+    background-image: url(images/img2.png);
+    background-size: cover;
+}
+.section3-img{
+    width: 38rem;
+    height: 27rem;
+    background-image: url(images/img3.png);
+    background-size: cover;
+}
+.section4-img{
+    width: 38rem;
+    height: 24rem;
+    background-image: url(images/img4.png);
+    background-size: cover;
+}
+
+
+
+.qtn1{
+    width: 73.125rem;
+    height: 5.25rem;
+    background-color: #302f2f;  
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 1rem;
+    margin:  0.7rem auto;
+}
+.questions-align{
+    text-align: center;
+}
+
+.hero-marginn{
+    margin: 3rem 0rem;
+}
+
+.margin{
+    margin-top: 1rem;
+    padding-left: 20rem;
+}
+
+/* footer */
+.footer-content{
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+span{
+    text-decoration: underline;
+}
+.footer-item{
+    text-decoration: underline;
+}
+.qtn-call{
+    margin-top: 2rem;
+}
+.qtn-call, .btn-margin, .netflix-india{
+    padding-left: 17rem;
+}
