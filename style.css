@@ -19,6 +19,7 @@ header{
     border-radius: 0.2rem;
 }
 .red-button{
+    border: 2px solid transparent;
     border-radius: 0.3rem;
     background-color: #e50914;
 }
